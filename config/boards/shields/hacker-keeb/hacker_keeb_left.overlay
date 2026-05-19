@@ -1,4 +1,4 @@
-#include "corne.dtsi"
+#include "hacker_keeb.dtsi"
 
 &kscan0 {
     col-gpios
