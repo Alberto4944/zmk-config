@@ -1,0 +1,17 @@
+if SHIELD_HACKER_KEEB_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Hacker Keeb"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HACKER_KEEB_LEFT || SHIELD_HACKER_KEEB_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

@@ -1,3 +1,4 @@
+name: zmk-keyboard-hacker-keeb
 build:
   settings:
     board_root: .
